@@ -46,7 +46,7 @@ function DrosselRateLimit(options) {
       // set header
       req.rateLimit = {
         limit: settings.limit,
-        remaining: Math.max(settings.limit - (currentCount + 1), 0),
+        remaining: Math.max(settings.limit - currentCount, 0),
         reset: resetTime
       };
       res.setHeader('X-Rate-Limit-Limit', req.rateLimit.limit);
