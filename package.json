@@ -1,0 +1,25 @@
+{
+  "name": "drossel-rate-limit",
+  "version": "1.0.0",
+  "description": "Unneccesary rate limit Express middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanocloudx/drossel-rate-limit.git"
+  },
+  "keywords": [
+    "rate",
+    "limit",
+    "express",
+    "redis"
+  ],
+  "author": "nanocloudx <nanocloudx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanocloudx/drossel-rate-limit/issues"
+  },
+  "homepage": "http://drossel.io/"
+}
